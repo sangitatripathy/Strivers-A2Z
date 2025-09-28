@@ -3,21 +3,42 @@
 
 # Allow only Array folder
 !Array/
+!Basic Maths/
+!Patterns/
 
 # Inside Array, ignore everything
 Array/*
 
 # Allow only specific files from Array
-!Array/MaximumSubarray.py
+!Array/largest.py
 !Array/buySellStock.py
-!Array/sortColors.py
 !Array/leaders.py
+!Array/leftRotate.py
+!Array/longestSubarray.py
+!Array/maxConsecutive.py
+!Array/MaximumSubarray.py
 !Array/maxScoreSubarrayMins.py
+!Array/moveZero.py
 !Array/nextPermutation.py
+!Array/numAppearsOnce.py
 !Array/rearrangeElements.py
-!Array/SortedOrnot.py
+!Array/removeDuplicate.py
+!Array/rotateArray.py
+!Array/searchInSorted.py
+!Array/secondLargest.py
 !Array/sortColors.py
+!Array/SortedOrnot.py
 !Array/twoSum.py
+!Array/unioOfSorted.py
+
+
+
+
+
+
+
+
+
 
 
 # Allow .gitignore itself
