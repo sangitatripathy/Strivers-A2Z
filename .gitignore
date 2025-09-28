@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Allow only Array folder
+!Array/
+
+# Inside Array, ignore everything
+Array/*
+
+# Allow only specific files from Array
+!Array/MaximumSubarray.py
+!Array/buySellStock.py
+!Array/sortColors.py
+!Array/leaders.py
+!Array/maxScoreSubarrayMins.py
+!Array/nextPermutation.py
+!Array/rearrangeElements.py
+!Array/SortedOrnot.py
+!Array/sortColors.py
+!Array/twoSum.py
+
+
+# Allow .gitignore itself
+!.gitignore
