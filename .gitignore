@@ -1,7 +1,7 @@
 # Ignore everything by default
 *
 
-# Allow only Array folder
+# Allow only specific folders
 !Array/
 !Basic Maths/
 !Patterns/
@@ -30,16 +30,6 @@ Array/*
 !Array/SortedOrnot.py
 !Array/twoSum.py
 !Array/unioOfSorted.py
-
-
-
-
-
-
-
-
-
-
 
 # Allow .gitignore itself
 !.gitignore
