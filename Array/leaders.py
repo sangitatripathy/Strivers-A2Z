@@ -1,4 +1,5 @@
-n=len(arr)
+def leaders(arr):
+  n=len(arr)
   i=n-2
   res=[]
   res.append(arr[n-1])
@@ -6,4 +7,9 @@ n=len(arr)
     if arr[i] >= res[-1]:
       res.append(arr[i])
     i-=1
-  return res.reverse()
+  res.reverse()
+  return res
+print(leaders([30, 10, 10, 5]))
+    
+    
+  
