@@ -9,6 +9,11 @@
 # Inside Array, ignore everything
 Array/*
 
+# Unignore files inside these folders recursively
+!Array/*.py
+!Basic Maths/*.py
+!Patterns/*.py
+
 # Allow only specific files from Array
 !Array/largest.py
 !Array/buySellStock.py
@@ -31,5 +36,3 @@ Array/*
 !Array/twoSum.py
 !Array/unioOfSorted.py
 
-# Allow .gitignore itself
-!.gitignore
