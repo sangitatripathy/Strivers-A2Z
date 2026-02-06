@@ -8,6 +8,7 @@
 !Binary Search/
 !Stack/
 !Recursion/
+!Dynamic Programming/
 
 # Allow subfolder
 !Binary Search/BS on 1D arrays/
@@ -24,6 +25,8 @@ Binary Search/BS on 1D arrays/*
 !Basic Maths/*.py
 !Patterns/*.py
 !Stack/*.py
+!Stack/*.js
 !Recursion/*.py
 !Recursion/*.js
 !Binary Search/BS on 1D arrays/*.py
+!Dynamic Programming/*.js
