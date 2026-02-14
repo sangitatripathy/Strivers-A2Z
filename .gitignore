@@ -12,6 +12,8 @@
 
 # Allow subfolder
 !Binary Search/BS on 1D arrays/
+!Dynamic Programming/1D DP/
+!Dynamic Programming/2D DP/
 
 # Ignore everything inside them
 Array/*
@@ -19,6 +21,7 @@ Basic Maths/*
 Patterns/*
 Stack/*
 Binary Search/BS on 1D arrays/*
+!Dynamic Programming/1D DP/*
 
 # Allow only .py files
 !Array/*.py
@@ -29,4 +32,5 @@ Binary Search/BS on 1D arrays/*
 !Recursion/*.py
 !Recursion/*.js
 !Binary Search/BS on 1D arrays/*.py
-!Dynamic Programming/*.js
+!Dynamic Programming/1D DP/*.js
+!Dynamic Programming/2D DP/*.js
