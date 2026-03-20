@@ -1,13 +1,8 @@
-slow=head
-      fast=head
-      count=0
-      while(fast!= None and fast.next != None):
-        if(slow == fast):
-          slow=slow.next
-          while(slow != fast):
-            slow=slow.next
-            count+=1
-          return count+1
-        slow=slow.next
-        fast=fast.next.next
-      return count
+ll2= single_ll()
+ll2.append(1)
+ll2.append(2)
+ll2.append(3)
+ll2.append(4)
+ll2.append(5)
+ll2.append(6)
+ll2.deleteMiddle()
