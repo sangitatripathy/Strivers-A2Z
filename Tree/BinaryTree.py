@@ -63,9 +63,29 @@ class BinaryTree:
     traverse(self.root)
     return res
 
+  def iterativePostOrder(self):
+    res=[]
+    stack1=[]
+    stack2=[]
+    root=self.root
+    stack1.append(root)
+    while stack1:
+      node = stack1.pop()
+      stack2.append(node)
+      if node.left:
+        stack1.append(node.left)
+      if node.right:
+        stack1.append(node.right)
+    while stack2:
+      res.append(stack2.pop().key)
+    return res
+      
+      
+
 tree=BinaryTree()
 for val in [10,20,30,40,50]:
   tree.insert(val)
 print(tree.preOrder())
 print(tree.inOrder())
 print(tree.postOrder())
+print(tree.iterativePostOrder())
