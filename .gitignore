@@ -9,11 +9,23 @@
 !Stack/
 !Recursion/
 !Dynamic Programming/
+!Linkedlist
+!Tree
+!Greedy Algorithms
+!Sliding Window
 
 # Allow subfolder
 !Binary Search/BS on 1D arrays/
+!Binary Search/BS on Answers/
 !Dynamic Programming/1D DP/
 !Dynamic Programming/2D DP/
+!Dynamic Programming/DP on subsequences/
+!Linkedlist/doublyLinkedlist
+!Linkedlist/Linkedlist Medium
+!Linkedlist/doublyLinkedlist
+!Linkedlist/singleLinkedList
+!Greedy Algorithms/Easy
+!Sliding Window/Medium
 
 # Ignore everything inside them
 Array/*
@@ -21,7 +33,11 @@ Basic Maths/*
 Patterns/*
 Stack/*
 Binary Search/BS on 1D arrays/*
+Binary Search/BS on Answers/*
 !Dynamic Programming/1D DP/*
+!Dynamic Programming/DP on subsequences/*
+!Tree/*
+!Sliding Window/Medium/*
 
 # Allow only .py files
 !Array/*.py
@@ -32,5 +48,12 @@ Binary Search/BS on 1D arrays/*
 !Recursion/*.py
 !Recursion/*.js
 !Binary Search/BS on 1D arrays/*.py
+!Binary Search/BS on Answers/*.js
 !Dynamic Programming/1D DP/*.js
 !Dynamic Programming/2D DP/*.js
+!Dynamic Programming/1D DP/*.py
+!Linkedlist/doublyLinkedlist/*.py
+!Linkedlist/Linkedlist Medium/*.py
+!Linkedlist/singleLinkedList/*.py
+!Tree/*.py
+!Greedy Algorithms/Easy/*.py
