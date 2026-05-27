@@ -24,6 +24,42 @@ class Solution:
       dp.append(row)
     return self.checkSum(n-1,arr,target,dp)
 
+  def checkSumRecur(self,arr,ind,target,count):
+    if target == 0:
+      return 1
+    if ind == 0 :
+      return target == arr[0]
+    notPick= self.checkSumRecur(arr,ind-1,target,count)
+    if arr[ind] <= target:
+      pick=self.checkSumRecur(arr,ind-1,target-arr[ind],count)
+    return pick+notPick
+
+  def tabCheckSum(self,arr,target):
+    dp=[]
+    n=len(arr)
+    for _ in range(len(arr)):
+      row=[]
+      for j in range(target+1):
+        row.append(0)
+      dp.append(row)
+
+    if arr[0] == 0:
+      dp[0][0] = 2
+    else:
+      dp[0][0] = 1
+
+    if arr[0] != 0 and arr[0] <= target:
+      dp[0][arr[0]] = 1
+
+    for i in range(1,len(arr)):
+      for j in range(target+1):
+        notTake=dp[i-1][j]
+        take=0
+        if arr[i] <= j:
+          take = dp[i-1][j-arr[i]]
+        dp[i][j] = take+notTake
+    return dp[n-1][target]
+                 
 sol = Solution()
 arr=[28,4,3,27,0,24,26]
-print(sol.perfectSum(arr,24))
+print(sol.tabCheckSum(arr,24))
